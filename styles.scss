@@ -31,15 +31,20 @@ body, html {
 
     .panel {
         flex-grow: 1;
-        padding: 1em;
+        padding: 1em 1.5em;
 
         &.left {
             width: 60%;
+
+            #bio {
+                max-width: 25em;
+            }
         }
 
         &.right {
             background-color: lightblue;
             width: 40%;
+            padding-top: 1.5em;
 
             ul {
                 list-style: none;
