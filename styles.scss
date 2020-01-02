@@ -61,3 +61,27 @@ body, html {
         }
     }
 }
+
+
+@media only screen and (max-width: 741px) {
+
+body, html {
+    overflow-y: auto;
+}
+
+#site-wrapper {
+    flex-direction: column;
+    height: auto !important;
+
+    .panel {
+        width: 100% !important;
+        box-sizing: border-box;
+
+        &.left {
+            margin-bottom: 5em;
+        }
+    }
+}
+
+
+}
