@@ -275,71 +275,77 @@ export const skills = {
 };
 
 export const projects = [
-  {
-    title: "HEAT 3D Pipeline",
-    github: "https://heat.tech/",
-    description: [
-      "Led development of AI-driven auto-rigging pipeline using TypeScript, Python, Rust, and WGPU.",
-      "Implemented voxel-based rigging and pose inference systems for enhanced 3D workflows.",
-      "Created custom humanoid IK system for complex animation retargetting across diverse 3D models and armatures.",
-      "Wrote a cross-platform plugin manager in C++ and QT.",
-      "Developed plugins for Blender, Daz, Unity, and Unreal Engine integration.",
-    ],
-  },
-  {
-    title: "STEMLINK (formerly Scratch Tools)",
-    github: "https://stemlink.net/",
-    description: [
-      "Built comprehensive education technology platform for STEM classrooms using modern full-stack architecture.",
-      "Designed and implemented entire system using Nuxt, Vue, TypeScript, Laravel, Postgres, and Redis.",
-      "Created proprietary calculation editor 'Scratchpad' - an online workspace for producing calculations with word processor efficiency.",
-      "Developed dedicated calculation processor for drafting and sharing math-based information in digital format.",
-      "Enabled new level of collaboration between educators and students through seamless work creation and sharing.",
-    ],
-  },
-  {
-    title: "OBS MIDI",
-    github: "https://github.com/Alzy/obs-midi",
-    description: [
-      "Developed C++ plugin for OBS streaming software enabling MIDI device control integration.",
-      "Built bidirectional communication system allowing MIDI devices to trigger OBS events and vice versa.",
-      "Solved efficiency challenges in stream source control, replacing traditional mouse/keyboard workflows.",
-      "Collaborated with developer Chris through OBS Discord community for ongoing maintenance and updates.",
-      "Ongoing project since June 2020 providing enhanced streaming control capabilities.",
-    ],
-  },
-  {
-    title: "Palacio Palace - Virtual Cultural Hub",
-    github: "https://palaciopalace.org/",
-    description: [
-      "Created virtual venue platform hosting digital and physical audiovisual experiences using Python, Django, Vue.js, and Unreal Engine.",
-      "Rapidly pivoted from physical events to virtual platform during COVID-19 pandemic within a single weekend.",
-      "Built complete platform infrastructure including self-hosted media server and real-time chat system.",
-      "Hosted 2,201 viewers in last 6 months of 2020, continuing weekly virtual events.",
-      "Established cultural hub combining traditional event hosting with cutting-edge virtual technology.",
-    ],
-  },
-  {
-    title: "Serious Business Virtual Gallery",
-    github: "https://seriousbusiness.la/",
-    description: [
-      "Developed smartphone app-based virtual art gallery using C#, C++, and Unreal Engine.",
-      "Created independent art space free from private investor influence, enabling creative freedom for artists.",
-      "Built immersive virtual gallery experience transcending physical space limitations.",
-      "Designed alternative to traditional exclusive art spaces, focusing on cultural benefit over profit.",
-      "Collaborated with 1646 Ideation Studio to deliver innovative art exhibition platform.",
-    ],
-  },
-  {
-    title: "alzyOSC - Ableton Live Remote Control",
-    github: "https://github.com/Alzy/alzyOSC",
-    description: [
-      "Built Ableton Live remote script using Python, Ableton API, Vue.js, and Electron.",
-      "Extended LiveOSC2 functionality to expose Ableton functions through OSC interface.",
-      "Created seamless integration between digital audio workstation and external control systems.",
-      "Enabled remote control and automation capabilities for music production workflows.",
-    ],
-  },
+ {
+   title: "HEAT 3D Pipeline",
+   github: "https://heat.tech/",
+   description: [
+     "Led development of AI-driven auto-rigging pipeline using TypeScript, Python, Rust, and WGPU.",
+     "Implemented voxel-based rigging and pose inference systems for enhanced 3D workflows.",
+     "Created custom humanoid IK system for complex animation retargetting across diverse 3D models and armatures.",
+     "Wrote a cross-platform plugin manager in C++ and QT.",
+     "Developed plugins for Blender, Daz, Unity, and Unreal Engine integration.",
+   ],
+   technologies: ["TypeScript", "Python", "Rust", "WGPU", "C++", "QT", "Three.js", "React", "NextJS", "Blender API", "Unity", "Unreal Engine", "Daz Studio", "TypeORM", "Postgres", "Redis"],
+ },
+ {
+   title: "STEMLINK (formerly Scratch Tools)",
+   github: "https://stemlink.net/",
+   description: [
+     "Built comprehensive education technology platform for STEM classrooms using modern full-stack architecture.",
+     "Designed and implemented entire system using Nuxt, Vue, TypeScript, Laravel, Postgres, and Redis.",
+     "Created proprietary calculation editor 'Scratchpad' - an online workspace for producing calculations with word processor efficiency.",
+     "Developed dedicated calculation processor for drafting and sharing math-based information in digital format.",
+     "Enabled new level of collaboration between educators and students through seamless work creation and sharing.",
+   ],
+   technologies: ["Nuxt", "Vue", "TypeScript", "Laravel", "Postgres", "Redis", "JavaScript", "PHP", "HTML", "CSS"],
+ },
+ {
+   title: "OBS MIDI",
+   github: "https://github.com/Alzy/obs-midi",
+   description: [
+     "Developed C++ plugin for OBS streaming software enabling MIDI device control integration.",
+     "Built bidirectional communication system allowing MIDI devices to trigger OBS events and vice versa.",
+     "Solved efficiency challenges in stream source control, replacing traditional mouse/keyboard workflows.",
+     "Collaborated with developer Chris through OBS Discord community for ongoing maintenance and updates.",
+     "Ongoing project since June 2020 providing enhanced streaming control capabilities.",
+   ],
+   technologies: ["C++", "MIDI", "OBS Studio", "CMake", "Qt", "JSON"],
+ },
+ {
+   title: "Palacio.tv",
+   github: "https://palacio.tv",
+   description: [
+     "Created virtual venue platform hosting digital and physical audiovisual experiences using Python, Django, Vue.js, and Unreal Engine.",
+     "Rapidly pivoted from physical events to virtual platform during COVID-19 pandemic within a single weekend.",
+     "Built complete platform infrastructure including self-hosted media server and real-time chat system.",
+     "Hosted 2,201 viewers in last 6 months of 2020, continuing weekly virtual events.",
+     "Established cultural hub combining traditional event hosting with cutting-edge virtual technology.",
+   ],
+   technologies: ["Typescript", "Python", "Nuxt", "Vue", "NodeJs", "Nginx", "PostgreSQL", "RTMP", "OSC", "Docker", "AWS"],
+ },
+ {
+   title: "Serious Business Virtual Gallery",
+   github: "https://seriousbusiness.la/",
+   description: [
+     "Developed smartphone app-based virtual art gallery using C#, C++, and Unreal Engine.",
+     "Created independent art space free from private investor influence, enabling creative freedom for artists.",
+     "Built immersive virtual gallery experience transcending physical space limitations.",
+     "Designed alternative to traditional exclusive art spaces, focusing on cultural benefit over profit.",
+     "Collaborated with 1646 Ideation Studio to deliver innovative art exhibition platform.",
+   ],
+   technologies: ["C#", "C++", "Unreal Engine", "Blueprint", "Android", "iOS", "Mobile Development", "3D Graphics"],
+ },
+ {
+   title: "alzyOSC - Ableton Live Remote Control",
+   github: "https://github.com/Alzy/alzyOSC",
+   description: [
+     "Built Ableton Live remote script using Python, Ableton API, Vue.js, and Electron.",
+     "Extended LiveOSC2 functionality to expose Ableton functions through OSC interface.",
+     "Created seamless integration between digital audio workstation and external control systems.",
+     "Enabled remote control and automation capabilities for music production workflows.",
+   ],
+   technologies: ["Python", "Ableton Live API", "Vue.js", "Electron", "OSC", "JavaScript", "Node.js"],
+ },
 ];
 
 export const awards = [

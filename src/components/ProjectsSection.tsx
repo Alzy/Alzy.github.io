@@ -39,6 +39,34 @@ export default function ProjectsSection() {
                       </motion.li>
                     ))}
                   </ul>
+
+                  {project.technologies && project.technologies.length > 0 && (
+                    <motion.div
+                      className="mt-4 p-3 bg-background/80 backdrop-blur-sm backdrop-filter"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 0.3 }}
+                      viewport={{ once: true }}
+                    >
+                      <span className="text-xs font-semibold uppercase tracking-wide mb-2 block">
+                        Technologies Used
+                      </span>
+                      <div className="flex flex-wrap gap-1">
+                        {project.technologies.map((tech, i) => (
+                          <motion.span
+                            key={i}
+                            className="px-2 py-1 text-xs bg-muted rounded-full text-muted-foreground"
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{ delay: i * 0.05 }}
+                            viewport={{ once: true }}
+                          >
+                            {tech}
+                          </motion.span>
+                        ))}
+                      </div>
+                    </motion.div>
+                  )}
                 </CardContent>
                 <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <motion.a
