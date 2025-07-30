@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Alfredo Gonzalez-Martinez",
-  location: "Reseda, CA 91335",
+  location: "Los Angeles, CA 91335",
   github: "https://github.com/Alzy",
   linkedin: "https://www.linkedin.com/in/alfredo-gonzalez-mar/",
 };
@@ -44,7 +44,7 @@ export const workExperience = [
   },
   {
     company: "1646 Ideation Studio",
-    location: "Canoga Park, CA",
+    location: "Los Angeles, CA",
     position: "Fullstack Developer / Partner",
     period: "September 2015 - July 2020",
     achievements: [
@@ -56,7 +56,7 @@ export const workExperience = [
   },
   {
     company: "Pro Beauty Online",
-    location: "Chatsworth, CA",
+    location: "Los Angeles, CA",
     position: "Web Developer and Administrator",
     period: "October 2016 - January 2019",
     achievements: [
@@ -67,7 +67,7 @@ export const workExperience = [
   },
   {
     company: "Khoravsky Enterprises",
-    location: "Woodland Hills, CA",
+    location: "Los Angeles, CA",
     position: "Web Administrator / Developer",
     period: "August 2013 - July 2016",
     achievements: [
@@ -101,11 +101,13 @@ export const skills = {
     "Python",
     "C++",
     "Rust",
+    "WGSL",
     "PHP",
     "C#",
     "JavaScript",
     "Bash",
     "SQL",
+    "Lua",
   ],
   frontendDevelopment: [
     "React",
@@ -116,23 +118,31 @@ export const skills = {
     "Astro",
     "Hugo",
     "HTML",
+    "Sass",
     "CSS",
   ],
   backendDevelopment: [
     "Node.js",
     "Laravel",
     "Django",
+    "FastAPI",
   ],
   databaseAndStorage: [
     "PostgreSQL",
     "MySQL",
+    "Maria",
+    "SQLite",
+    "Mongo",
     "Redis",
     "TypeORM",
   ],
   cloudAndDevOps: [
     "AWS",
+    "Linode",
+    "Google Cloud",
     "Docker",
-    "Linux",
+    "Github Actions",
+    "Bitbucket Pipelines",
   ],
   threeDAndSystems: [
     "Three.js",
@@ -147,27 +157,24 @@ export const skills = {
     "Choc",
     "CMake",
   ],
-  cmsAndEcommerce: [
-    "Shopify",
-    "WooCommerce",
-    "Magento",
-    "Kirby",
-    "WordPress",
-  ],
   toolsAndServices: [
     "Git",
     "GitHub",
     "GTM",
     "SEO",
     "REST APIs",
-    "Automation Scripts",
+    "Shopify",
+    "WooCommerce",
+    "Magento",
+    "Kirby",
+    "WordPress",
   ],
 };
 
 export const projects = [
   {
     title: "HEAT 3D Pipeline",
-    github: "", // Add GitHub URL if available
+    github: "https://heat.tech/",
     description: [
       "Led development of AI-driven auto-rigging pipeline using TypeScript, Python, Rust, and WGPU.",
       "Implemented voxel-based rigging and pose inference systems for enhanced 3D workflows.",
@@ -177,7 +184,7 @@ export const projects = [
   },
   {
     title: "STEMLINK (formerly Scratch Tools)",
-    github: "", // Add GitHub URL if available
+    github: "https://stemlink.net/",
     description: [
       "Built comprehensive education technology platform for STEM classrooms using modern full-stack architecture.",
       "Designed and implemented entire system using Nuxt, Vue, TypeScript, Laravel, Postgres, and Redis.",
@@ -188,7 +195,7 @@ export const projects = [
   },
   {
     title: "OBS MIDI",
-    github: "", // Add GitHub URL if available
+    github: "https://github.com/Alzy/obs-midi",
     description: [
       "Developed C++ plugin for OBS streaming software enabling MIDI device control integration.",
       "Built bidirectional communication system allowing MIDI devices to trigger OBS events and vice versa.",
@@ -199,7 +206,7 @@ export const projects = [
   },
   {
     title: "Palacio Palace - Virtual Cultural Hub",
-    github: "", // Add GitHub URL if available
+    github: "https://palaciopalace.org/",
     description: [
       "Created virtual venue platform hosting digital and physical audiovisual experiences using Python, Django, Vue.js, and Unreal Engine.",
       "Rapidly pivoted from physical events to virtual platform during COVID-19 pandemic within a single weekend.",
@@ -210,7 +217,7 @@ export const projects = [
   },
   {
     title: "Serious Business Virtual Gallery",
-    github: "", // Add GitHub URL if available
+    github: "https://seriousbusiness.la/",
     description: [
       "Developed smartphone app-based virtual art gallery using C#, C++, and Unreal Engine.",
       "Created independent art space free from private investor influence, enabling creative freedom for artists.",
@@ -221,7 +228,7 @@ export const projects = [
   },
   {
     title: "alzyOSC - Ableton Live Remote Control",
-    github: "", // Add GitHub URL if available
+    github: "https://github.com/Alzy/alzyOSC",
     description: [
       "Built Ableton Live remote script using Python, Ableton API, Vue.js, and Electron.",
       "Extended LiveOSC2 functionality to expose Ableton functions through OSC interface.",
@@ -233,13 +240,6 @@ export const projects = [
 
 export const awards = [
   {
-    name: "Bronco Startup Challenge",
-    issuer: "Cal Poly Pomona",
-    date: "Apr 2021",
-    type: "Startup Competition",
-    position: "2nd Place Winner",
-  },
-  {
     name: "Fast Pitch Competition",
     issuer: "Cal Poly Pomona",
     date: "Feb 2021",
@@ -247,11 +247,18 @@ export const awards = [
     position: "Winner",
   },
   {
+    name: "Bronco Startup Challenge",
+    issuer: "Cal Poly Pomona",
+    date: "Apr 2021",
+    type: "Startup Competition",
+    position: "2nd Place Winner",
+  },
+  {
     name: "Viterbi Startup Garage – Resident",
     issuer: "USC",
     date: "2020",
     type: "Accelerator Program",
-    position: "Selected Participant",
+    position: "Resident",
   },
   {
     name: "NSF I-Corps – Participant",

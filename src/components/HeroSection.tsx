@@ -40,14 +40,14 @@ export default function HeroSection() {
               className="text-4xl font-bold mb-2"
               variants={childVariants}
             >
-              {personalInfo.name}{" "}
+              {personalInfo.name}
             </motion.h1>
 
             <motion.p
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              👨‍💻 Software Engineer
+              👨‍💻 Senior Full Stack Software Engineer
             </motion.p>
 
             <motion.div
