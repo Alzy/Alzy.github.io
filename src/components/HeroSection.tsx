@@ -1,6 +1,6 @@
-import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
-import { motion } from "framer-motion";
+import {personalInfo} from "@/lib/data";
+import {Github, Linkedin, MapPin} from "lucide-react";
+import {motion} from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
 export default function HeroSection() {
@@ -41,14 +41,13 @@ export default function HeroSection() {
               variants={childVariants}
             >
               {personalInfo.name}{" "}
-              <span className="inline-block animate-pulse">✨</span>
             </motion.h1>
 
             <motion.p
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              👨‍💻 Software Engineer
             </motion.p>
 
             <motion.div
@@ -61,18 +60,8 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
+                {personalInfo.location}
               </motion.div>
-
-              <motion.a
-                href={`mailto:${personalInfo.email}`}
-                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
-                variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
-              >
-                <Mail className="h-4 w-4 mr-2" />
-                ✉️ {personalInfo.email}
-              </motion.a>
 
               <motion.a
                 href={personalInfo.github}
@@ -83,7 +72,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Github className="h-4 w-4 mr-2" />
-                🌟 GitHub
+                GitHub
               </motion.a>
 
               <motion.a
@@ -95,7 +84,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Linkedin className="h-4 w-4 mr-2" />
-                🔗 LinkedIn
+                LinkedIn
               </motion.a>
             </motion.div>
           </div>
@@ -121,16 +110,7 @@ export default function HeroSection() {
         <MotionWrapper>
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
-              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              Full-stack developer with 12 years of experience building everything from web apps to real-time 3D and audio systems. Most recently led development of a cross-platform 3D pipeline at HEAT LLC, including auto-rigging, IK animation, and custom plugin tooling for Blender, Unity, Unreal, and more. Comfortable moving between frontend frameworks like React and backend stacks like Python, Rust, and Postgres — and not afraid to drop into C++ or WGPU when performance demands it. I enjoy bridging creative tools with technical systems and solving tough problems end to end.
             </p>
           </div>
         </MotionWrapper>

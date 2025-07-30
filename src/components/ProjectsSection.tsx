@@ -32,12 +32,12 @@ export default function ProjectsSection() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <ul className="list-disc ml-4 space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
+                  <ul className="list-disc ml-4 mt-4 space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
                     {project.description.map((desc, i) => (
                       <motion.li
                         key={i}
                         className="text-muted-foreground"
-                        initial={{ opacity: 0, x: -10 }}
+                        initial={{ opacity: 0, x: 0 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.1 }}
                         viewport={{ once: true }}
@@ -56,8 +56,7 @@ export default function ProjectsSection() {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    <Github className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
-                    View on GitHub 🔗
+                    View Project
                   </motion.a>
                 </CardFooter>
               </GlassCard>
