@@ -78,12 +78,87 @@ export const workExperience = [
   },
 ];
 
+export const clients = [
+  {
+    name: "Honest History",
+    description: "Built and maintain the companies bespoke subscription automation tool which automatically renews subscription orders with curated product selections based on customer's purchases.",
+    technologies: ["Shopify Admin API", "GraphQL", "Typescript", "Nuxt", "Vue 3", "Google Cloud", "Google Firestore"],
+    website: "https://honesthistory.co/"
+  },
+  {
+    name: "Bayflats Lodge",
+    description: "I periodically assist with Bayflats with website and custom booking engine troubleshooting as well provide support to the marketing teams technical needs.",
+    technologies: ["Woocommerce", "PHP", "Shopify", "Typescript", "Node.js", "MySQL", "Google Tag Manager"],
+    website: "https://www.bayflatslodge.com/"
+  },
+  {
+    name: "HEAT",
+    description: "Originally brought on as an independent contractor, I built the companies Blender plugin which included debugging tools, retargeting, queue, and animation tools, as well as an updater. The plugin also includes a web portal component which eventually became the basis for the companies bridge system.",
+    technologies: ["Python", "Blender API", "React", "Typescript", "Requests", "Pip", "SQLite"],
+    website: "https://github.com/HEAT-tech/heat-blender-tools"
+  },
+  {
+    name: "ArtRank",
+    description: "Designed and built the entire technical stack for this art installation by Sergio Bromberg. The project included a custom CMS for the artist to remotely update the content onscreen as well as middleware to control the display orientation when rotated. Exhibited at the Art Los Angeles Contemporary, 2017. ",
+    technologies: ["Javascript", "Custom CMS", "PHP", "SQLite", "Windows SDK"],
+    website: "https://www.sergiobromberg.com/artrank"
+  },
+  {
+    name: "Palacio Palace",
+    description: "Built an online live streaming platform/pipeline allowing Palacio to host virtual multimedia musical performances online (https://palacio.tv) during the height of the pandemic. Users were able to anonymously view the performance online and chat with other attendees.",
+    technologies: ["Typescript", "Python", "Nuxt", "Vue", "NodeJs", "Nginx", "PostgreSQL", "RTMP", "OSC", "Docker", "AWS"],
+    website: "https://youtu.be/gB3HwQiEeKs?si=UHz8D9iTmgz23EsE&t=243"
+  },
+  {
+    name: "Bio-Behavioral Medical Clinics",
+    description: "Built the clinics website as well as administration and automation tools to collect client information and inform patients of medical document updates.",
+    technologies: ["PHP", "Python", "Javascript", "Wordpress", "Google Tag Manager", "Google Datalayer"],
+    website: "https://bbmc-inc.com/"
+  },
+  {
+    name: "MIT - School of Architecture and Planning",
+    description: "Inherited and maintained MIT's Future Urban Collectives website, a student research project from the department of architecture and planning. I worked directly with the director and lead researcher on the project to troubleshoot deployment issues, complete the website and provide additional maintenance.",
+    technologies: ["Preact", "Javascript", "JQuery", "Css"],
+    website: "https://urbancollectives.org/"
+  },
+  {
+    name: "A People’s EPA",
+    description: "Built the website and administration tools for the A People’s EPA organization. Tooling includes a PDF parser for quicker uploads of documents and custom search functionality.",
+    technologies: ["PHP", "Javascript", "Kirby"],
+    website: "https://www.apeoplesepa.org/"
+  },
+  {
+    name: "Hotel Saint Vincent",
+    description: "Assisted the marketing teams technical needs.",
+    technologies: ["Javascript", "Google Tag Manager", "Google Datalayer"],
+    website: "https://saintvincentnola.com/"
+  },
+  {
+    name: "Townschool",
+    description: "Assisted this institution with static site development for several programs and landing pages.",
+    technologies: ["Nuxt", "Vue", "Javascript", "AWS"],
+    website: "https://www.townschool.com/"
+  },
+  {
+    name: "LAD Design",
+    description: "Inherited the development of the website part way through development. Brought project to completion.",
+    technologies: ["Javascript", "JQuery", "Cargo"],
+    website: "https://laddesign.net/"
+  },
+  {
+    name: "Michael W. Folonis Architects",
+    description: "I built and support the companies website. This codebase is in the legacy Squarespace API - back when Squarespace had a custom developer ecosystem.",
+    technologies: ["Javascript", "HTML", "CSS", "Squarespace"],
+    website: "https://folonisarchitects.com"
+  },
+];
+
 export const education = [
   {
     institution: "California State University-Northridge",
     location: "Northridge, CA",
     degree: "Bachelor's degree in Mechanical Engineering",
-    period: "2021 - 2023",
+    period: "2020 - 2023",
     achievements: [],
   },
   {
@@ -112,6 +187,7 @@ export const skills = {
   frontendDevelopment: [
     "React",
     "Vue",
+    "Preact",
     "Next.js",
     "Nuxt",
     "Tailwind CSS",
@@ -138,36 +214,46 @@ export const skills = {
   ],
   cloudAndDevOps: [
     "AWS",
-    "Linode",
-    "Google Cloud",
-    "Docker",
+    "Nginx",
+    "Apache",
+    "LetsEncrypt",
     "Github Actions",
     "Bitbucket Pipelines",
-  ],
-  threeDAndSystems: [
-    "Three.js",
-    "Blender API",
-    "WGPU",
-    "QT",
-    "Unity",
-    "Unreal Engine",
-    "Daz",
-    "Godot",
-    "JUCE",
-    "Choc",
-    "CMake",
+    "Docker",
+    "Linode",
+    "Google Cloud",
+    "Heroku",
+    "BlueHost",
+    "Siteground",
   ],
   toolsAndServices: [
     "Git",
     "GitHub",
-    "GTM",
     "SEO",
+    "Npm",
+    "Bun",
+    "Yarn",
+    "Pip",
+    "Cargo",
+    "Composer",
     "REST APIs",
     "Shopify",
     "WooCommerce",
     "Magento",
     "Kirby",
     "WordPress",
+    "Three.js",
+    "Blender API",
+    "WGPU",
+    "QT",
+    "Unity",
+    "Unreal Engine",
+    "GTM",
+    "Daz",
+    "Godot",
+    "JUCE",
+    "Choc",
+    "CMake",
   ],
 };
 
@@ -178,7 +264,8 @@ export const projects = [
     description: [
       "Led development of AI-driven auto-rigging pipeline using TypeScript, Python, Rust, and WGPU.",
       "Implemented voxel-based rigging and pose inference systems for enhanced 3D workflows.",
-      "Created custom humanoid IK system with cross-platform plugin manager in C++.",
+      "Created custom humanoid IK system for complex animation retargetting across diverse 3D models and armatures.",
+      "Wrote a cross-platform plugin manager in C++ and QT.",
       "Developed plugins for Blender, Daz, Unity, and Unreal Engine integration.",
     ],
   },
@@ -240,25 +327,25 @@ export const projects = [
 
 export const awards = [
   {
-    name: "Fast Pitch Competition",
-    issuer: "Cal Poly Pomona",
-    date: "Feb 2021",
+    name: "TechCrunch Disrupt 2021 – Participant",
+    issuer: "TechCrunch",
+    date: "September 2021",
     type: "Pitch Competition",
-    position: "Winner",
+    position: "Competed",
   },
   {
     name: "Bronco Startup Challenge",
     issuer: "Cal Poly Pomona",
     date: "Apr 2021",
-    type: "Startup Competition",
+    type: "Pitch Competition",
     position: "2nd Place Winner",
   },
   {
-    name: "Viterbi Startup Garage – Resident",
-    issuer: "USC",
-    date: "2020",
-    type: "Accelerator Program",
-    position: "Resident",
+    name: "Fast Pitch Competition",
+    issuer: "Cal Poly Pomona",
+    date: "Feb 2021",
+    type: "Pitch Competition",
+    position: "Winner",
   },
   {
     name: "NSF I-Corps – Participant",
@@ -267,4 +354,25 @@ export const awards = [
     type: "National Program",
     position: "Completed Program",
   },
+  {
+    name: "Viterbi Startup Garage – Resident",
+    issuer: "USC",
+    date: "2020",
+    type: "Accelerator Program",
+    position: "Resident",
+  },
+];
+
+export const publications = [
+  {
+    title: "Controlling a Below-the-Elbow Prosthetic Arm Using the Infinity Foot Controller",
+    journal: "Prosthesis",
+    date: "November 2023",
+    authors: "Peter L. Bishay, Jack Wilgus, RunRun Chen, Diego Valenzuela, Victor Medina, Calvin Tan, Taylor Ittner, Miguel Caldera, Cristina Rubalcava, Shaghik Safarian, Gerbert Funes Alfaro, Alfredo Gonzalez-Martinez, Matthew Gosparini, Jose Fuentes-Perez, Andy Lima, Jonnathan Villalobos, Abrahan Solis",
+    type: "Technical Note",
+    doi: "10.3390/prosthesis5040084",
+    abstract: "This work presents the 'Infinity Foot Controller' as a new approach to control a five-finger below-the-elbow prosthetic arm...",
+    keywords: ["foot controller", "wrist bending and rotation", "haptic feedback"],
+    url: "https://www.mdpi.com/2673-1592/5/4/84" // optional
+  }
 ];
