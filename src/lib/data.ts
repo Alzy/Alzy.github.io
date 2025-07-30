@@ -1,10 +1,8 @@
 export const personalInfo = {
   name: "Alfredo Gonzalez-Martinez",
   location: "Reseda, CA 91335",
-  email: "gonzalezalfredo101@gmail.com",
-  phone: "818.590.5251",
-  github: "", // Add your GitHub URL if available
-  linkedin: "", // Add your LinkedIn URL if available
+  github: "https://github.com/Alzy",
+  linkedin: "https://www.linkedin.com/in/alfredo-gonzalez-mar/",
 };
 
 export const workExperience = [
