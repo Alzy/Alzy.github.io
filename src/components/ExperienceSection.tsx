@@ -63,6 +63,34 @@ export default function ExperienceSection() {
                   ))}
                 </ul>
               </motion.div>
+
+              {job.technologies && job.technologies.length > 0 && (
+                <motion.div
+                  className="mt-4 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-blue-500/20 dark:bg-card/10 dark:border-blue-500/10 shadow-sm"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  viewport={{ once: true }}
+                >
+                  <span className="text-xs font-semibold uppercase tracking-wide mb-2 block">
+                    Technologies Used
+                  </span>
+                  <div className="flex flex-wrap gap-1">
+                    {job.technologies.map((tech, i) => (
+                      <motion.span
+                        key={i}
+                        className="px-2 py-1 text-xs bg-muted rounded-full text-muted-foreground"
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: i * 0.05 }}
+                        viewport={{ once: true }}
+                      >
+                        {tech}
+                      </motion.span>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
             </TimelineItem>
           ))}
         </div>

@@ -17,6 +17,7 @@ export const workExperience = [
       "Designed a custom humanoid IK system and developed a cross-platform plugin manager/portal in C++.",
       "Authored and maintained plugins for Blender, Daz, Unity, and Unreal Engine.",
     ],
+    technologies: ["TypeScript", "Three.js", "React", "Bun", "Docker", "Python", "C++", "QT", "Rust", "WGPU", "TypeORM", "Postgres", "Redis", "Blender API", "Unity", "Unreal Engine"],
   },
   {
     company: "Independent",
@@ -29,6 +30,7 @@ export const workExperience = [
       "Optimized legacy codebases and provided deep technical knowledge across frontend, backend, and DevOps.",
       "Handled SEO tuning, GTM integration, and full custom builds for diverse client requirements.",
     ],
+    technologies: ["React", "Vue", "Typescript", "JavaScript", "Sass", "PHP", "Docker", "AWS", "Shopify", "Magento", "Kirby", "Hugo", "Astro", "Tailwind", "Bulma", "SEO", "GTM"],
   },
   {
     company: "Scratch Tools LLC",
@@ -41,6 +43,7 @@ export const workExperience = [
       "Created a smooth, distraction-free writing experience tailored for students and classrooms.",
       "Participated in USC's Viterbi Startup Garage and NSF I-Corps program for startup validation.",
     ],
+    technologies: ["Nuxt", "Vue", "TypeScript", "Laravel", "Postgres", "Redis", "JavaScript", "Heroku", "AWS"],
   },
   {
     company: "1646 Ideation Studio",
@@ -53,6 +56,7 @@ export const workExperience = [
       "Built software for art installations and provided technical and creative consultations.",
       "Created websites across platforms including Squarespace, Shopify, WooCommerce, WordPress, Magento, Laravel, and Django.",
     ],
+    technologies: ["Squarespace", "Shopify", "WooCommerce", "WordPress", "Magento", "Laravel", "Django", "JavaScript", "PHP", "Python", "HTML", "CSS"],
   },
   {
     company: "Pro Beauty Online",
@@ -64,6 +68,7 @@ export const workExperience = [
       "Developed custom administrative tools and maintained/customized Shopify webstore.",
       "Provided IT consultation using stack: Magento, PHP, Bootstrap, MySQL, JavaScript, CSS3, Python, PostgreSQL, Django, TKinter.",
     ],
+    technologies: ["Magento", "PHP", "Bootstrap", "MySQL", "JavaScript", "CSS3", "Python", "PostgreSQL", "Django", "TKinter", "Shopify"],
   },
   {
     company: "Khoravsky Enterprises",
@@ -75,6 +80,18 @@ export const workExperience = [
       "Developed science expo websites (SIA Expo) and astronomy resources (iNova CCD USA, DoctorDReviews, TelescopeS.net).",
       "Handled social media, inventory, data entry, and IT duties for the organization.",
     ],
+    technologies: ["Magento", "PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    company: "Veterans First, Orange County",
+    location: "Los Angeles, CA",
+    position: "Web  Intern",
+    period: "August 2012 - December 2012",
+    achievements: [
+      "Developed and briefly maintained the joomla based website for the non-profit organization",
+      "Provided website administration, updating contents and events listed on the site.",
+    ],
+    technologies: ["Joomla", "PHP", "MySQL", "JavaScript", "HTML", "CSS"],
   },
 ];
 
