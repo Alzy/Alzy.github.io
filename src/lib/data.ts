@@ -83,14 +83,14 @@ export const education = [
     institution: "California State University-Northridge",
     location: "Northridge, CA",
     degree: "Bachelor's degree in Mechanical Engineering",
-    period: "", // Add graduation year if available
+    period: "2021 - 2023",
     achievements: [],
   },
   {
     institution: "Pierce College",
     location: "Winnetka, CA",
     degree: "Associate's degree in Engineering and Computer Science",
-    period: "", // Add graduation year if available
+    period: "2021",
     achievements: [],
   },
 ];
