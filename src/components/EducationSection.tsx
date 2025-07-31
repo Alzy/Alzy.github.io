@@ -36,7 +36,7 @@ export default function EducationSection() {
                   className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
+                  transition={{ duration: 0.125, delay: 0.0 }}
                   viewport={{ once: true }}
                 >
                   <div className="flex items-center mb-3">
