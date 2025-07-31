@@ -6,8 +6,12 @@ interface Props {
   description?: string;
 }
 
-const { title = "Alfredo Gonzalez-Martinez - Portfolio", description = "Portfolio of Alfredo Gonzalez-Martinez, Senior Fullstack Developer" } =
-  Astro.props;
+const {
+  title = "Alfredo Gonzalez-Martinez - Senior Full Stack Developer",
+  description = "Senior Full Stack Developer with 12+ years experience in web apps, 3D systems, and cross-platform development. Expert in TypeScript, Python, C++ and modern technologies."
+} = Astro.props;
+
+const imageURL = "/profile.jpg";
 ---
 
 <!doctype html>
@@ -17,8 +21,23 @@ const { title = "Alfredo Gonzalez-Martinez - Portfolio", description = "Portfoli
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={description} />
+
+    <!-- Basic SEO -->
     <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={imageURL} />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageURL} />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
