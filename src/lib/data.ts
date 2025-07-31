@@ -276,6 +276,18 @@ export const skills = {
 };
 
 export const projects = [
+  {
+    title: "Xochi Thumbnailer - Audio Waveform Generator",
+    github: "https://github.com/Alzy/Xochi-Thumbnailer",
+    description: [
+      "Python-based tool that creates visually appealing and informative waveform images from audio files, inspired by Pioneer/AlphaTheta and Denon DJ equipment.",
+      "Implements multi-band frequency analysis (low, mid, high) without FFT, using efficient filtering for real-time performance.",
+      "Generates multiple waveform styles: rainbow coloring, three-band visualization, and interpolated rendering with custom colors.",
+      "Created custom XPKS binary format for compact multi-resolution peak data storage with 1-3 mip levels.",
+      "Part of the larger Xochi Performer performance tool ecosystem, designed for modular iteration and extensibility.",
+    ],
+    technologies: ["Python", "NumPy", "SciPy", "Matplotlib", "Pillow", "Pydub", "Audio Processing", "DSP", "Binary File Formats"],
+  },
  {
    title: "HEAT 3D Pipeline",
    github: "https://heat.tech/",
