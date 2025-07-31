@@ -12,9 +12,10 @@ export const workExperience = [
     position: "Senior Developer / Head of 3D Pipeline Development",
     period: "2022 - Present",
     achievements: [
-      "Led development of a cross-platform 3D tech stack using TypeScript, Three.js, React, NextJS, Python, C++, QT, Rust, WGPU, TypeORM, Postgres, and Redis.",
-      "Built and led AI-driven research and development of the auto-rigging pipeline using TypeScript, Python, Rust, and WGPU, including voxel-based rigging and pose inference systems.",
-      "Designed a custom humanoid IK system and developed a cross-platform plugin manager/portal in C++.",
+      "Led development of the company's online 3D technical stack and animation pipeline.",
+      "Built and led AI-driven research and development of the auto-rigging pipeline including voxel-based rigging and pose inference systems.",
+      "Designed a custom humanoid IK system for complex animation retargetting.",
+      "Developed a cross-platform plugin manager/portal in C++.",
       "Authored and maintained plugins for Blender, Daz, Unity, and Unreal Engine.",
     ],
     technologies: ["TypeScript", "Three.js", "React", "Bun", "Docker", "Python", "C++", "QT", "Rust", "WGPU", "TypeORM", "Postgres", "Redis", "Blender API", "Unity", "Unreal Engine"],
@@ -25,7 +26,7 @@ export const workExperience = [
     position: "Freelance Developer",
     period: "July 2020 - Present",
     achievements: [
-      "Developed custom automation tools, web apps, and full-scale CMS integrations across multiple technology stacks.",
+      "Developed custom automation tools, web apps, and full-scale CMS integrations across diverse technology stacks.",
       "Built and maintained Shopify and Magento stores, and sites using Kirby, Hugo, Astro, React, and Vue.",
       "Optimized legacy codebases and provided deep technical knowledge across frontend, backend, and DevOps.",
       "Handled SEO tuning, GTM integration, and full custom builds for diverse client requirements.",
