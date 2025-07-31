@@ -34,11 +34,6 @@ export default function GlassHeader() {
                 transition={{ duration: 0.2, delay: index * 0.1 }}
                 whileHover={{ y: -2 }}
               >
-                {item === "experience" && "💼 "}
-                {item === "skills" && "🛠️ "}
-                {item === "projects" && "🚀 "}
-                {item === "awards" && "🏆 "}
-                {item === "education" && "🎓 "}
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </motion.a>
             )
